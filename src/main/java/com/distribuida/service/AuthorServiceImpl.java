@@ -17,7 +17,7 @@ import static org.springframework.http.HttpMethod.*;
 @ApplicationScoped
 public class AuthorServiceImpl implements AuthorService {
 
-    private final String PATH_URL = "http://localhost:7081/authors";
+    private final String PATH_URL = "http://gateway:7081/authors";
 
     @Inject
     RestTemplate restTemplate;

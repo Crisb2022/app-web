@@ -17,7 +17,7 @@ import static org.springframework.http.HttpMethod.*;
 @ApplicationScoped
 public class BookServiceImpl implements BookService {
 
-    private final String PATH_URL = "http://localhost:7001/books";
+    private final String PATH_URL = "http://gateway:7001/books";
 
     @Inject
     RestTemplate restTemplate;
